@@ -57,7 +57,7 @@ void timer_led_event_handler(nrf_timer_event_t event_type, void* p_context)
  */
 int main(void)
 {
-    uint32_t time_ms = 500; //Time(in miliseconds) between consecutive compare events.
+    uint32_t time_ms = 600; //Time(in miliseconds) between consecutive compare events.
     uint32_t time_ticks;
     uint32_t err_code = NRF_SUCCESS;
 
